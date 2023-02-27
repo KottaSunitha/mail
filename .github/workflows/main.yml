@@ -18,11 +18,11 @@ jobs:
         uses: dawidd6/action-send-mail@v2
         with:
         # mail server settings
-         server_address: smtp.gmail.com
-         server_port: 465
+         server_address: mail.smtp2go.com
+         server_port: 2525
     # user credentials
-         username: kottasunitha1997@gmail.com
-         password: Suniojas@9795
+         username: sunitha.kotta@ovaledge.com
+         password: Ovaledge@9795
     # email subject
          subject: ${{ github.job }} job of ${{ github.repository }} has ${{ job.status }}
     # email body as text
