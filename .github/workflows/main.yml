@@ -22,7 +22,7 @@ jobs:
          server_port: 587
     # user credentials
          username: sunitha.kotta@ovaledge.com
-         password: jmjchkhlmolzyvjo
+         password: {{secrets.password}}
     # email subject
          subject: ${{ github.job }} job of ${{ github.repository }} has ${{ job.status }}
     # email body as text
