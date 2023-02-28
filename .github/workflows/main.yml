@@ -21,8 +21,8 @@ jobs:
          server_address: smtp.gmail.com
          server_port: 587
     # user credentials
-         username: sunithakotta9795@gmail.com
-         password: ahntoppywlojmneh
+         username: sunitha.kotta@ovaledge.com
+         password: jmjchkhlmolzyvjo
     # email subject
          subject: ${{ github.job }} job of ${{ github.repository }} has ${{ job.status }}
     # email body as text
